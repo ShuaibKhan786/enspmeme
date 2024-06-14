@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function checkAuth() {
         if (localStorage.getItem('auth') !== 'true') {
-            window.location.href = '/';
+            window.location.href = './index.html';
         } else {
             displayMessage();
         }
