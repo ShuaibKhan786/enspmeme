@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
         spanishBtn.addEventListener('click', function() {
             localStorage.setItem('auth', 'true');
             localStorage.setItem('language', 'sp');
-            window.location.href = './gay.html';
+            window.location.href = '/';
         });
     }
 
