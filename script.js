@@ -20,13 +20,13 @@ document.addEventListener('DOMContentLoaded', function() {
         spanishBtn.addEventListener('click', function() {
             localStorage.setItem('auth', 'true');
             localStorage.setItem('language', 'sp');
-            window.location.href = '/';
+            window.location.href = './gay.html';
         });
     }
 
     function checkAuth() {
         if (localStorage.getItem('auth') !== 'true') {
-            window.location.href = './index.html';
+            window.location.href = '/';
         } else {
             displayMessage();
         }
